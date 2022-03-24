@@ -1,5 +1,5 @@
 import Logo from '../assets/logo.png'
-import './components.css'
+import './Component.css'
 import User from '../assets/user.png'
 const Navbar = () => {
     return (

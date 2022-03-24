@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Arrow from './assets/arrow.png'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Ecosystem from './components/Ecosystem';
 import TopNFT from './components/TopNFT';
-import './components/components.css'
+import './components/Component.css'
 import SassyChar from './assets/SassyChar.png'
 import SatisfyingChar from './assets/SatisfyingChar.png'
 import ApolloChar from './assets/ApolloChar.png'
@@ -16,6 +15,11 @@ import ExpCollection from './components/ExpCollection';
 import Jerome from './assets/jerome.png';
 import Cody from './assets/cody.png';
 import Jhones from './assets/jhones.png';
+import Footer from './components/Footer';
+import Collections from './components/Collections'
+import TopSeller from './components/TopSellerContent'
+import TopSellers from './components/TopSellers'
+import Subscribe from './components/Subscribe'
 function App() {
   return (
   <main>
@@ -40,6 +44,7 @@ function App() {
   <TopNFT title = 'Satisfying 3D Art' hours = '23' mins = '32' secs = '56' image = {SatisfyingChar} banner = {Satisfying}/>
   </div>
   <Ecosystem/>
+  <Collections/>
   <div className="NFT_Head">
         <div className='left_head'>
         <p>Explore Collections</p>
@@ -65,6 +70,10 @@ function App() {
   </section>
  
   </div>
+  <TopSeller/>
+  <TopSellers/>
+  <Subscribe/>
+  <Footer/>
   </main>
   );
 }

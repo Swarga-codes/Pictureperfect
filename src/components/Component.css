@@ -1,0 +1,569 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+.Navbar{
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 1rem 4rem;
+    border-bottom: 2px solid #000000;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 0rem;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    padding: 2rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.routes {
+display: flex;
+margin-left: auto;
+
+}
+.routes li{
+    list-style: none;
+    padding: 2rem 2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+.connect{
+    margin-left: auto;
+    padding: 2rem 2rem;
+}
+.connect button{
+    position: relative;
+    margin-left: 2rem;
+    top: -0.5rem;
+    border: 1px solid #000000;
+    background: none;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    
+}
+/*Header*/
+.Header{
+    display: flex;
+    padding: 6rem 6rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: -8rem;
+}
+.Header_content h1{
+    font-size: 66px;
+    padding: 1rem 0rem;
+    font-weight: 600;
+    line-height: 91px;
+}
+.Header_content p{
+    font-size: 26px;
+    padding: 1rem 6rem;
+    margin-left: -5.5rem;
+    font-weight: 400;
+    color: #100000;
+    line-height: 44px;
+}
+.headBtn{
+    padding: 2rem 1rem;
+}
+.headBtn span{
+    margin-left: 4rem;
+}
+.exploreBtn{
+    padding: 1rem 1.5rem;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #A260F3;
+    border: 1px solid #A260F3;
+    border-radius: 16px 0px 16px 0px;
+}
+.stats{
+padding: 5rem 0rem;
+display: flex;
+}
+.art{
+    border-right: 1.10546px solid rgba(0, 0, 0, 0.26);
+}
+
+.stats div{
+    padding: 0rem 2rem;
+    width: 120px;
+
+}
+.auc{
+    border-right: 1.10546px solid rgba(0, 0, 0, 0.26);
+}
+.stats h1{
+    font-size: 40px;
+    line-height: 0;
+}
+.stats p{
+    font-size: 17px;
+    line-height: 0;
+    padding: 1rem 0;
+    margin-left: 0;
+}
+.extended{
+    position: relative;
+    top: -8rem;
+    background: none;
+    left: 10rem;
+}
+/*ECOSYSTEM*/
+.Ecosystem {
+    text-align: center;
+}
+.Ecosystem h1{
+    font-size: 66.33px;
+    line-height: 91.13px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 10rem;
+}
+.Ecosystem span{
+    color: #A260F3;
+}
+
+.Ecosystem img{
+    margin-top: 6rem;
+}
+/*Top NFT*/
+.NFT_Head{
+    display: flex;
+    padding: 2rem 4rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 10rem;
+}
+.NFT_Head p{
+    font-size: 25px;
+}
+.NFT_content{
+    margin-top: -0.3rem;
+    width: 91.5%;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    backdrop-filter: blur(56.2448px);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.1) -1.52%, rgba(0, 0, 0, 0.024) 104.35%);
+    border-width: 3.5px;
+}
+.NFT_content::after{
+    width: 91.5%;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    backdrop-filter: blur(56.2448px);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.1) -1.52%, rgba(0, 0, 0, 0.024) 104.35%);
+    border-width: 3.5px;
+}
+
+.right_head{
+    margin-left: auto;
+    display: flex;
+}
+.right_head p{
+    margin-right: 3rem;
+}
+.right_head img{
+    margin-right: 3rem;
+}
+.heads{
+    display: flex;
+}
+.auc_ends{
+    margin-left: auto;
+}
+.NFTLoop{
+    display: flex;
+}
+.TopNFT{
+    padding: 1rem 3rem;
+}
+.auc_dur{
+    margin-top: 0.5rem;
+}
+.verify{
+    position: relative;
+    left: 0.8rem;
+    top: -0.6rem;
+}
+.userName span{
+    position: relative;
+    top: -0.8rem;
+    left: 0.5rem;
+}
+.userName{
+    margin-top: 1.5rem;
+}
+.heads h4{
+    margin-top: 3rem;
+}
+.eth{
+    margin-top: 0.5rem;
+}
+.eth span{
+    margin-left: 0.7rem;
+    position: relative;
+    top: -0.4rem;
+}
+
+.bidBtn{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 0.5rem 1.5rem;
+    background: #A260F3;
+    color: #FFFFFF;
+    border: 0.925076px solid #A260F3;
+    box-shadow: 0px 4.09053px 99.1954px rgba(255, 86, 246, 0.51);
+    border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.TopNFT{
+    font-family: 'Rajdhani', sans-serif;
+}
+/*Explore Collections*/
+.tags{
+    display: flex;
+}
+.tags img{
+    margin-left: -9.4rem;
+}
+.ExpCol{
+    border: 2px solid #07060640;
+    width: 25rem;
+    margin-bottom: 6rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+.userPic{
+    text-align: center;
+}
+.userPic img{
+    position: relative;
+    top: -6rem;
+    background: none;
+    margin-bottom: -5rem;
+}
+.tags h1{
+    text-align: center;
+}
+.tag_content{
+    margin: auto;
+}
+.tag_content p{
+    font-size: 18px;
+}
+.exp_container h1{
+    text-align: center;
+    font-size: 22px;
+    line-height: 42.59px;
+}
+.prof_stats{
+display: flex;
+}
+.prof_stats div{
+    padding: 2rem 2rem;
+}
+.followBtn{
+    font-size: 18px;
+    padding: 0.7rem 5rem;
+    background: #A260F3;
+    color: white;
+    border: 0.92419px solid #A260F3;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 1.5rem;
+}
+.collectionLoop{
+    display: flex;
+}
+.collectionLoop section{
+    padding: 3rem 3rem;
+}
+.followers h2{
+    text-align: center;
+}
+.following h2{
+    text-align: center;
+}
+.artworks h2{
+    text-align: center;
+}
+/*Ritika Ki Tatti*/
+/* COLLECTION */
+.collections h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 66.3276px;
+    line-height: 137.4%;
+    color: #000000;
+    text-align: center;
+    margin-top: 10rem;
+ }
+ .collections{
+     padding-bottom: 18rem;
+ }
+ .collections_img div img:nth-child(2){
+    position: relative;
+    padding: 0 3rem;
+    top: 6rem;
+ }
+ .collec_img{
+    padding: 2rem 6rem;
+ }
+ .collections_data{
+     display: flex;
+     justify-content: center;
+     padding-top: 4rem;
+     margin-top: 4rem;
+     margin-bottom: -16rem;
+ }
+ .collections_content{
+     padding: 9rem 5rem;
+ }
+.collections_content h2{
+font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 41px;
+color: #000000;
+}
+.collections_content p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #636363;
+}
+.collections_content button{
+    background: #A260F3;
+    border: 0.92419px solid #A260F3;
+    width: 12rem;
+    height: 3rem;
+    margin-top: 1rem;
+    font-family: 'Rajdhani',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* TOP SELLERS */
+.top_seller{
+    padding-bottom: 2rem;
+}
+.top_seller h1{
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+text-align: center;
+}
+.top_seller span{
+    color: #A260F3;
+}
+.top_seller p{
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #000000;
+}
+.topseller_container{
+    border: 2.5px solid;
+    border-image-slice: 1 ;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.3) -1.52%, rgba(0, 0, 0, 0.3) 104.35%);
+    height: 8rem;
+    width: 28rem;
+    display: flex;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+.topseller_col{
+    display: flex;
+}
+.topsell_pic{
+    padding: 1.5rem 0;
+}
+.topseller_container button{
+    padding: 0.5rem 1.5rem;
+    margin: unset;
+    margin-left: 8rem;
+}
+.topseller_container h4{
+    padding: 2rem 1rem;
+}
+.topseller_container div p{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 19.0479px;
+align-items: center;
+color: #000000;
+}
+.btnRed{
+    background: linear-gradient(180deg, rgba(235, 20, 20, 0.15) 0%, rgba(235, 20, 20, 0.1005) 100%);
+    color: #FF0000;
+    border: 1px solid;
+    border-image-slice: 1 ;
+    border-image-source: linear-gradient(#B20000, #B64949);
+
+}
+.btnGreen{
+    background: rgba(0, 179, 71, 0.15);
+    color: #04662B;
+    border: 1px solid;
+    border-image-slice: 1 ;
+    border-image-source: linear-gradient(#00B247, #49B649);
+}
+.topseller_container div{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* SUBSCRIBER */
+#wrap{
+    display: flex;
+    padding-bottom: 9rem;
+    padding-top: 15rem;
+}
+.subimg {
+    padding-left: 6rem;
+    padding-right: 5rem;
+
+}
+.subimg img{
+    width: 40rem;
+    height: 17rem;
+}
+.subcontent h1{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+font-size: 39.7965px;
+line-height: 50px;
+}
+.subcontent p{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 19.8983px;
+line-height: 35px;
+}
+.subemail input{
+    background: #F4F5F7;
+    border-radius: 0px;
+    /* padding: 1rem 3rem; */
+    width: 16rem;
+    height: 3rem;
+    border: #F4F5F7;
+}
+::placeholder{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+padding: 0 1rem;
+color: #474A57;
+}
+.subemail button{
+    width: 8rem;
+    height: 3rem;
+    background: #A260F3;
+border: 1px solid #A260F3;
+color: #FFFFFF;
+font-size: 17px;
+margin-left: 1rem;
+}
+.subemail{
+    padding-top: 1rem;
+}
+
+/* FOOTER */
+footer{
+    border-top: 1px solid #000000;
+    padding-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+.footer{
+    display: flex;
+    border-bottom:1px solid #000000;
+    padding-bottom: 5rem;
+}
+.heading h1{
+    font-family: 'Inter', sans-serif;
+/* font-style: normal; */
+font-weight: 500;
+font-size: 19.8983px;
+line-height: 31px;
+color: #000000;
+text-align: start;
+}
+.heading p{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15.4764px;
+line-height: 27px;
+color: #5C5C5E;
+}
+.heading ul{
+    list-style: none;
+    padding: 0;
+}
+.heading li{
+    padding-top: 1rem;
+    font-size: 17px;
+    color: #5C5C5E;
+}
+.heading{
+    padding: 0 3rem;
+    padding-left: 4rem;
+}
+#footer_cont{
+    font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 19.8983px;
+line-height: 25px;
+color: #000000;
+}
+.heading span{
+    font-family: 'MuseoModerno', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 22.1092px;
+line-height: 27px;
+color: #2EC5CE;
+}
+.foot_img img{
+    padding: 0 0.5rem;
+}
+.foot_img{
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+}
+.footer_last{
+    display: flex;
+    padding: 0 2rem;
+}
+.footer_last p{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15.4764px;
+line-height: 27px;
+color: #5C5C5E;
+}
