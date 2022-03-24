@@ -25,8 +25,8 @@ const TopNFT = (props) => {
         <h4>Reserve Price</h4>
         <div className="eth">
         <img src={Ethereum} alt="" />
-        <span>ETH 9.31</span>
-        <span>($29,8846)</span>
+        <span style={{ fontFamily: "'Orbitron', sans-serif", fontWeight:'600'}}>ETH 9.31</span>
+        <span style={{fontWeight:'100'}}>($29,8846)</span>
 
         </div>
         </div>

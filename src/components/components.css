@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 .Navbar{
     display: flex;
     font-family: 'Rajdhani', sans-serif;
@@ -136,10 +137,24 @@ display: flex;
 .NFT_content{
     width: 91.5%;
     border: 2px solid;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 2rem 1rem;
-    
+    backdrop-filter: blur(56.2448px);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.1) -1.52%, rgba(0, 0, 0, 0.024) 104.35%);
+    border-width: 3.5px;
 }
+.NFT_content::after{
+    width: 91.5%;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+    backdrop-filter: blur(56.2448px);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.1) -1.52%, rgba(0, 0, 0, 0.024) 104.35%);
+    border-width: 3.5px;
+}
+
 .right_head{
     margin-left: auto;
     display: flex;
@@ -167,12 +182,13 @@ display: flex;
 }
 .verify{
     position: relative;
-    left: 0.5rem;
-    top: -0.3rem;
+    left: 0.8rem;
+    top: -0.6rem;
 }
 .userName span{
     position: relative;
-    top: -0.5rem;
+    top: -0.8rem;
+    left: 0.5rem;
 }
 .userName{
     margin-top: 1.5rem;
@@ -183,6 +199,12 @@ display: flex;
 .eth{
     margin-top: 0.5rem;
 }
+.eth span{
+    margin-left: 0.7rem;
+    position: relative;
+    top: -0.4rem;
+}
+
 .bidBtn{
     margin-top: 4rem;
     margin-left: 3rem;
@@ -190,4 +212,10 @@ display: flex;
     background: #A260F3;
     color: #FFFFFF;
     border: 0.925076px solid #A260F3;
+    box-shadow: 0px 4.09053px 99.1954px rgba(255, 86, 246, 0.51);
+    border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.TopNFT{
+    font-family: 'Rajdhani', sans-serif;
 }
